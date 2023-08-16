@@ -26,7 +26,7 @@ public class ApplicationService {
     public Applications createApplication(String id, String cardType){
         Applications applications = new Applications();
         applications.setDateCreated("rgggtg");
-        applications.setApplicationStatus(ApplicationStatus.CreditScoreFetchPending);
+        applications.setApplicationStatus(ApplicationStatus.getValue("CreditScoreFetchPending"));
         applications.setCreditCardType(cardType);
 
         applications = applicationRepository.save(applications);

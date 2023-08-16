@@ -1,7 +1,7 @@
 package com.example.demo.data.model;
 
 import com.example.demo.dto.NewCustomer;
-import javax.persistence.*;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.HashSet;

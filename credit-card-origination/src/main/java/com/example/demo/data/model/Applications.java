@@ -2,7 +2,7 @@ package com.example.demo.data.model;
 
 import com.example.demo.data.enums.ApplicationStatus;
 import com.example.demo.dto.NewApplication;
-import javax.persistence.*;
+import jakarta.persistence.*;
 import lombok.*;
 import java.sql.Date;
 
